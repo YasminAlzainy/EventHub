@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		CC3C15AB229FFF2A0024E052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15AA229FFF2A0024E052 /* AppDelegate.swift */; };
-		CC3C15AD229FFF2A0024E052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15AC229FFF2A0024E052 /* ViewController.swift */; };
+		CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15AC229FFF2A0024E052 /* LoginVC.swift */; };
 		CC3C15B0229FFF2A0024E052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15AE229FFF2A0024E052 /* Main.storyboard */; };
 		CC3C15B3229FFF2A0024E052 /* EventHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15B1229FFF2A0024E052 /* EventHub.xcdatamodeld */; };
 		CC3C15B5229FFF2B0024E052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15B4229FFF2B0024E052 /* Assets.xcassets */; };
 		CC3C15B8229FFF2B0024E052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15B6229FFF2B0024E052 /* LaunchScreen.storyboard */; };
 		CC9A407D22A096E600AD9086 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC9A407B22A096E600AD9086 /* logo.jpg */; };
+		CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC3C15A7229FFF2A0024E052 /* EventHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C15AA229FFF2A0024E052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC3C15AC229FFF2A0024E052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3C15AC229FFF2A0024E052 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CC3C15AF229FFF2A0024E052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC3C15B2229FFF2A0024E052 /* EventHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventHub.xcdatamodel; sourceTree = "<group>"; };
 		CC3C15B4229FFF2B0024E052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC3C15B7229FFF2B0024E052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3C15B9229FFF2B0024E052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC9A407B22A096E600AD9086 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHallVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		CC3C15A9229FFF2A0024E052 /* EventHub */ = {
 			isa = PBXGroup;
 			children = (
+				CCFB88D522A54E1800D92FD7 /* Screen */,
 				CC9A407B22A096E600AD9086 /* logo.jpg */,
 				CC3C15AA229FFF2A0024E052 /* AppDelegate.swift */,
-				CC3C15AC229FFF2A0024E052 /* ViewController.swift */,
 				CC3C15AE229FFF2A0024E052 /* Main.storyboard */,
 				CC3C15B4229FFF2B0024E052 /* Assets.xcassets */,
 				CC3C15B6229FFF2B0024E052 /* LaunchScreen.storyboard */,
@@ -68,6 +70,15 @@
 				CC3C15B1229FFF2A0024E052 /* EventHub.xcdatamodeld */,
 			);
 			path = EventHub;
+			sourceTree = "<group>";
+		};
+		CCFB88D522A54E1800D92FD7 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C15AC229FFF2A0024E052 /* LoginVC.swift */,
+				CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3C15AD229FFF2A0024E052 /* ViewController.swift in Sources */,
+				CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */,
+				CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */,
 				CC3C15B3229FFF2A0024E052 /* EventHub.xcdatamodeld in Sources */,
 				CC3C15AB229FFF2A0024E052 /* AppDelegate.swift in Sources */,
 			);
