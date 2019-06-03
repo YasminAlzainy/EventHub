@@ -22,7 +22,10 @@ class ViewController: UIViewController {
         
         roundCoponents()
         blurBackground()
+        
+        
     }
+    
     
     func roundCoponents(){
         img_logo.layer.cornerRadius = img_logo.frame.size.width / 2
@@ -44,7 +47,8 @@ class ViewController: UIViewController {
         let blurEffect = UIBlurEffect(style: .light)
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame = imgView_background.bounds
-       
+        blurView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+
         imgView_background.addSubview(blurView)
     }
 
