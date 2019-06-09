@@ -15,6 +15,7 @@
 		CC3C15B8229FFF2B0024E052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15B6229FFF2B0024E052 /* LaunchScreen.storyboard */; };
 		CC9A407D22A096E600AD9086 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC9A407B22A096E600AD9086 /* logo.jpg */; };
 		CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */; };
+		CCFB88D722A9B2C800D92FD7 /* EditHallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CC3C15B9229FFF2B0024E052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC9A407B22A096E600AD9086 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHallVC.swift; sourceTree = "<group>"; };
+		CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHallVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				CC3C15AC229FFF2A0024E052 /* LoginVC.swift */,
 				CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */,
+				CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFB88D722A9B2C800D92FD7 /* EditHallVC.swift in Sources */,
 				CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */,
 				CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */,
 				CC3C15B3229FFF2A0024E052 /* EventHub.xcdatamodeld in Sources */,
