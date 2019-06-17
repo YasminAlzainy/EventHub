@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC3897CB22B74CA1001ECA28 /* CreateEventTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3897CA22B74CA1001ECA28 /* CreateEventTableVC.swift */; };
+		CC3897CD22B74CB1001ECA28 /* EditEventTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3897CC22B74CB1001ECA28 /* EditEventTableVC.swift */; };
 		CC3C15AB229FFF2A0024E052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15AA229FFF2A0024E052 /* AppDelegate.swift */; };
 		CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15AC229FFF2A0024E052 /* LoginVC.swift */; };
 		CC3C15B0229FFF2A0024E052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15AE229FFF2A0024E052 /* Main.storyboard */; };
@@ -16,9 +18,14 @@
 		CC9A407D22A096E600AD9086 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC9A407B22A096E600AD9086 /* logo.jpg */; };
 		CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */; };
 		CCFB88D722A9B2C800D92FD7 /* EditHallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */; };
+		EDDB8A8AE39FE52D798F2394 /* Pods_EventHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFE6DCEDF25155D137480DD /* Pods_EventHub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AFE6DCEDF25155D137480DD /* Pods_EventHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F3D32EA1ADA55E47C42A07 /* Pods-EventHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventHub.release.xcconfig"; path = "Target Support Files/Pods-EventHub/Pods-EventHub.release.xcconfig"; sourceTree = "<group>"; };
+		CC3897CA22B74CA1001ECA28 /* CreateEventTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventTableVC.swift; sourceTree = "<group>"; };
+		CC3897CC22B74CB1001ECA28 /* EditEventTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventTableVC.swift; sourceTree = "<group>"; };
 		CC3C15A7229FFF2A0024E052 /* EventHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C15AA229FFF2A0024E052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3C15AC229FFF2A0024E052 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -30,6 +37,7 @@
 		CC9A407B22A096E600AD9086 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHallVC.swift; sourceTree = "<group>"; };
 		CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHallVC.swift; sourceTree = "<group>"; };
+		DCF6AC7D546FB11EDA223241 /* Pods-EventHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventHub.debug.xcconfig"; path = "Target Support Files/Pods-EventHub/Pods-EventHub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDB8A8AE39FE52D798F2394 /* Pods_EventHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09A80E4532865DE2D29E439C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE6DCEDF25155D137480DD /* Pods_EventHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37C3B42DE071270E54D47A52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCF6AC7D546FB11EDA223241 /* Pods-EventHub.debug.xcconfig */,
+				78F3D32EA1ADA55E47C42A07 /* Pods-EventHub.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC3C159E229FFF290024E052 = {
 			isa = PBXGroup;
 			children = (
 				CC3C15A9229FFF2A0024E052 /* EventHub */,
 				CC3C15A8229FFF2A0024E052 /* Products */,
+				37C3B42DE071270E54D47A52 /* Pods */,
+				09A80E4532865DE2D29E439C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +109,8 @@
 				CC3C15AC229FFF2A0024E052 /* LoginVC.swift */,
 				CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */,
 				CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */,
+				CC3897CA22B74CA1001ECA28 /* CreateEventTableVC.swift */,
+				CC3897CC22B74CB1001ECA28 /* EditEventTableVC.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -91,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC3C15BC229FFF2B0024E052 /* Build configuration list for PBXNativeTarget "EventHub" */;
 			buildPhases = (
+				8C935749FE0F63C690AA87C4 /* [CP] Check Pods Manifest.lock */,
 				CC3C15A3229FFF290024E052 /* Sources */,
 				CC3C15A4229FFF290024E052 /* Frameworks */,
 				CC3C15A5229FFF290024E052 /* Resources */,
+				041598FCA990B2B19296CA50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,16 +184,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		041598FCA990B2B19296CA50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventHub/Pods-EventHub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventHub/Pods-EventHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C935749FE0F63C690AA87C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EventHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC3C15A3229FFF290024E052 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3897CB22B74CA1001ECA28 /* CreateEventTableVC.swift in Sources */,
 				CCFB88D722A9B2C800D92FD7 /* EditHallVC.swift in Sources */,
 				CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */,
 				CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */,
 				CC3C15B3229FFF2A0024E052 /* EventHub.xcdatamodeld in Sources */,
 				CC3C15AB229FFF2A0024E052 /* AppDelegate.swift in Sources */,
+				CC3897CD22B74CB1001ECA28 /* EditEventTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +396,7 @@
 		};
 		CC3C15BD229FFF2B0024E052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF6AC7D546FB11EDA223241 /* Pods-EventHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,13 +408,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EventHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CC3C15BE229FFF2B0024E052 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F3D32EA1ADA55E47C42A07 /* Pods-EventHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -333,7 +427,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EventHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

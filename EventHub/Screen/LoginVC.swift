@@ -7,50 +7,56 @@
 //
 
 import UIKit
+import MaterialComponents
 
 class LoginVC: UIViewController {
     @IBOutlet weak var img_logo: UIImageView!
-    @IBOutlet weak var tf_username: UITextField!
+    @IBOutlet weak var tf_username: MDCTextField!
+    @IBOutlet weak var tf_password: MDCTextField!
+    @IBOutlet weak var btn_login: MDCButton!
     
-    @IBOutlet weak var imgView_background: UIImageView!
-    @IBOutlet weak var tf_password: UITextField!
-    @IBOutlet weak var btn_login: UIButton!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        roundCoponents()
-        blurBackground()
-        
-        
-    }
-    
-    
-    func roundCoponents(){
+    var tf_username_controller : MDCTextInputControllerUnderline?
+    var tf_password_controller : MDCTextInputControllerUnderline?
+    //var btn_logo_controller : MDCButton
+
+    override func viewDidLayoutSubviews() {
         img_logo.layer.cornerRadius = img_logo.frame.size.width / 2
         img_logo.clipsToBounds = true
-        
-        tf_password.layer.cornerRadius = tf_password.frame.size.height / 2
-        tf_password.clipsToBounds = true
-       
-        tf_username.layer.cornerRadius = tf_username.frame.size.height / 2
-        tf_username.clipsToBounds = true
         
         btn_login.layer.cornerRadius = btn_login.frame.size.height / 2
         btn_login.clipsToBounds = true
         
+        tf_password_controller = MDCTextInputControllerUnderline(textInput: tf_password)
+        tf_username_controller = MDCTextInputControllerUnderline(textInput: tf_username)
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
     
-    func blurBackground() {
-        let blurEffect = UIBlurEffect(style: .light)
-        let blurView = UIVisualEffectView(effect: blurEffect)
-        blurView.frame = imgView_background.bounds
-        blurView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+  
+    
+ //   func roundCoponents(){
+//        tf_password.layer.cornerRadius = tf_password.frame.size.height / 2
+//        tf_password.clipsToBounds = true
+//
+//        tf_username.layer.cornerRadius = tf_username.frame.size.height / 2
+//        tf_username.clipsToBounds = true
+//
+//        btn_login.layer.cornerRadius = btn_login.frame.size.height / 2
+//        btn_login.clipsToBounds = true
 
-        imgView_background.addSubview(blurView)
-    }
+ //   }
+    
+//    func blurBackground() {
+//        let blurEffect = UIBlurEffect(style: .light)
+//        let blurView = UIVisualEffectView(effect: blurEffect)
+//        blurView.frame = imgView_background.bounds
+//        blurView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+//
+//        imgView_background.addSubview(blurView)
+//    }
 
 
 }
