@@ -16,7 +16,7 @@
 		CC3C15B5229FFF2B0024E052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15B4229FFF2B0024E052 /* Assets.xcassets */; };
 		CC3C15B8229FFF2B0024E052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15B6229FFF2B0024E052 /* LaunchScreen.storyboard */; };
 		CC9A407D22A096E600AD9086 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC9A407B22A096E600AD9086 /* logo.jpg */; };
-		CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */; };
+		CCEEBC6122B9128700182632 /* AddHallTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEEBC6022B9128700182632 /* AddHallTableVC.swift */; };
 		CCFB88D722A9B2C800D92FD7 /* EditHallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */; };
 		EDDB8A8AE39FE52D798F2394 /* Pods_EventHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFE6DCEDF25155D137480DD /* Pods_EventHub.framework */; };
 /* End PBXBuildFile section */
@@ -35,7 +35,7 @@
 		CC3C15B7229FFF2B0024E052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3C15B9229FFF2B0024E052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC9A407B22A096E600AD9086 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
-		CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHallVC.swift; sourceTree = "<group>"; };
+		CCEEBC6022B9128700182632 /* AddHallTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHallTableVC.swift; sourceTree = "<group>"; };
 		CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHallVC.swift; sourceTree = "<group>"; };
 		DCF6AC7D546FB11EDA223241 /* Pods-EventHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventHub.debug.xcconfig"; path = "Target Support Files/Pods-EventHub/Pods-EventHub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,6 @@
 				DCF6AC7D546FB11EDA223241 /* Pods-EventHub.debug.xcconfig */,
 				78F3D32EA1ADA55E47C42A07 /* Pods-EventHub.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,10 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				CC3C15AC229FFF2A0024E052 /* LoginVC.swift */,
-				CCFB88D322A54E0E00D92FD7 /* AddHallVC.swift */,
-				CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */,
+				CCEEBC6022B9128700182632 /* AddHallTableVC.swift */,
 				CC3897CA22B74CA1001ECA28 /* CreateEventTableVC.swift */,
 				CC3897CC22B74CB1001ECA28 /* EditEventTableVC.swift */,
+				CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -248,8 +247,8 @@
 			files = (
 				CC3897CB22B74CA1001ECA28 /* CreateEventTableVC.swift in Sources */,
 				CCFB88D722A9B2C800D92FD7 /* EditHallVC.swift in Sources */,
+				CCEEBC6122B9128700182632 /* AddHallTableVC.swift in Sources */,
 				CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */,
-				CCFB88D422A54E0E00D92FD7 /* AddHallVC.swift in Sources */,
 				CC3C15B3229FFF2A0024E052 /* EventHub.xcdatamodeld in Sources */,
 				CC3C15AB229FFF2A0024E052 /* AppDelegate.swift in Sources */,
 				CC3897CD22B74CB1001ECA28 /* EditEventTableVC.swift in Sources */,

@@ -28,6 +28,8 @@ class LoginVC: UIViewController {
         
         tf_password_controller = MDCTextInputControllerUnderline(textInput: tf_password)
         tf_username_controller = MDCTextInputControllerUnderline(textInput: tf_username)
+        
+        tf_password.isSecureTextEntry = true
     }
     
     override func viewDidLoad() {
