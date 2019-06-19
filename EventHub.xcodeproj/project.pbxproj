@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC3897CB22B74CA1001ECA28 /* CreateEventTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3897CA22B74CA1001ECA28 /* CreateEventTableVC.swift */; };
-		CC3897CD22B74CB1001ECA28 /* EditEventTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3897CC22B74CB1001ECA28 /* EditEventTableVC.swift */; };
 		CC3C15AB229FFF2A0024E052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15AA229FFF2A0024E052 /* AppDelegate.swift */; };
 		CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C15AC229FFF2A0024E052 /* LoginVC.swift */; };
 		CC3C15B0229FFF2A0024E052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C15AE229FFF2A0024E052 /* Main.storyboard */; };
@@ -25,7 +24,6 @@
 		3AFE6DCEDF25155D137480DD /* Pods_EventHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F3D32EA1ADA55E47C42A07 /* Pods-EventHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventHub.release.xcconfig"; path = "Target Support Files/Pods-EventHub/Pods-EventHub.release.xcconfig"; sourceTree = "<group>"; };
 		CC3897CA22B74CA1001ECA28 /* CreateEventTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventTableVC.swift; sourceTree = "<group>"; };
-		CC3897CC22B74CB1001ECA28 /* EditEventTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventTableVC.swift; sourceTree = "<group>"; };
 		CC3C15A7229FFF2A0024E052 /* EventHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C15AA229FFF2A0024E052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3C15AC229FFF2A0024E052 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				CC3C15AC229FFF2A0024E052 /* LoginVC.swift */,
 				CCEEBC6022B9128700182632 /* AddHallTableVC.swift */,
 				CC3897CA22B74CA1001ECA28 /* CreateEventTableVC.swift */,
-				CC3897CC22B74CB1001ECA28 /* EditEventTableVC.swift */,
 				CCFB88D622A9B2C800D92FD7 /* EditHallVC.swift */,
 			);
 			path = Screen;
@@ -251,7 +248,6 @@
 				CC3C15AD229FFF2A0024E052 /* LoginVC.swift in Sources */,
 				CC3C15B3229FFF2A0024E052 /* EventHub.xcdatamodeld in Sources */,
 				CC3C15AB229FFF2A0024E052 /* AppDelegate.swift in Sources */,
-				CC3897CD22B74CB1001ECA28 /* EditEventTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

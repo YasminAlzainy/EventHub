@@ -23,7 +23,7 @@ class LoginVC: UIViewController {
         img_logo.layer.cornerRadius = img_logo.frame.size.width / 2
         img_logo.clipsToBounds = true
         
-        btn_login.layer.cornerRadius = btn_login.frame.size.height / 2
+        btn_login.layer.cornerRadius = 15
         btn_login.clipsToBounds = true
         
         tf_password_controller = MDCTextInputControllerUnderline(textInput: tf_password)
